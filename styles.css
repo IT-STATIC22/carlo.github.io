@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Subject-table{ 
+    width: 100vw;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: -webkit-linear-gradient(left, #000428 30%, #004e92);
+} 
+.Subject-title{ /* Title*/
+    padding-top: 70px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    background: #07F71F;
+    background: linear-gradient(to right, #07F71F 0%, #07f7d7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;      
+}
+.table{   /* Table Size */
+    width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    height: 380px;
+}
+.table thead{  /* Table Head Backgound Color */
+    background: #29d1f2;
+}
+.table thead tr th{  /* Header Table Text Color*/
+    font-size : 30px;
+    font-weight : 600;      
+    padding : 10px; 
+    text-align : center;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 5px;
+    background: #D70BDE;
+    background: linear-gradient(to right, #D70BDE 0%, #0717f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.table tbody{ /* Table body Backgound Color */
+    background: rgb(2,247,247);
+    background: linear-gradient(90deg, rgba(2,247,247,1) 0%, rgba(2,247,161,1) 100%);
+}
+.table tbody tr td{ /* Table body Text Color*/
+    font-size : 20px;
+    background: #D70BDE;
+    background: linear-gradient(to right, #D70BDE 0%, #0717f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align : center;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 5px;      
+}
